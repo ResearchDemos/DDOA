@@ -85,5 +85,5 @@ init = [init;reshape(JHat,[18,1]);reshape(JC,[18,1])];
 y=y(1:length(t),1:54);
 size(t)
 size(y)
-save (['data/INITdata'], 't', 'y');
-save (['data/parameter'], 'T', 'neta', 'zeta', 'r', 'omega', 'upperq', 'lowerq', 'upperdq', 'lowerdq', 'beta', 'q0', 'initPos');
+save (['INITdata'], 't', 'y');
+save (['parameter'], 'T', 'neta', 'zeta', 'r', 'omega', 'upperq', 'lowerq', 'upperdq', 'lowerdq', 'beta', 'q0', 'initPos');

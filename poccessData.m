@@ -1,8 +1,8 @@
 %%
 % clear all;
 % format long;
-load data/INITdata.mat;
-load data/parameter.mat;
+load INITdata.mat;
+load parameter.mat;
 addpath('func');
 
 %=========== kinovaJacoJ2N6S300  ==============

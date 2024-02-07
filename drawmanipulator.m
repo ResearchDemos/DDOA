@@ -2,8 +2,8 @@ clear;
 format long;
 % load data_original/INITdata.mat;
 % load data_original/parameter.mat;
-load data/INITdata.mat;
-load data/parameter.mat;
+load INITdata.mat;
+load parameter.mat;
 addpath('func');
 
 global obstacle
